@@ -5,7 +5,7 @@ A documentation and tracking project with the goal of making package management 
 
 | Language | Name | Tier | Controls | Packman Lead | Packman Page | 
 |----------|------|------|----------|--------------|--------------|
-| Javascript | NPM | 1   |  |  | [NPM Page](./npm.md) |
+| Javascript | npm | 1   |  |  | [npm Page](./npm.md) |
 | Ruby       | RubyGems | 1 | | | |
 | Python     | PyPy     | 1 | |  | |
 | Java       | Maven Central | 2 | | | 
@@ -36,5 +36,5 @@ Since being able to push new code to a package manager is a powerful function, i
 
 ## References to Related Projects
 
-[Dependency Track](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project)
-[Dependency Check]()
+- [Dependency Track](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project)
+- [Dependency Check]()
