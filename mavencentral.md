@@ -1,6 +1,6 @@
-# Rubygems Package Manager
+# Maven Central Package Manager
 
-Rubygems information.
+Maven central package manager information.
 
 ## Contacts
 
@@ -12,15 +12,15 @@ Rubygems information.
 |---------|--------|--------|
 | Strong Authentication | Optional |  |
 | MFA To Push Artifacts | Optional |  |
-| Security Contacts | Yes |  |
+| Security Contacts | No |  |
 | Packages Can Notify of Security Issues | ??? |  |
 | Code package tied to source code | No | |
 | Update notifications | No |  |
-| Code signing | Optional |  |
+| Code signing | ??? |  |
 | Code analysis (static) | No |  |
-| Code Dependency Analysis | No | bundler audit |
-| Package Manager Does Not Run Code | No, it does |  |
-| Package Manager Does Not Collect Info | ??? |  |
+| Code Dependency Analysis | No |  |
+| Package Manager Does Not Run Code | Yes |  |
+| Package Manager Does Not Collect Info | Yes |  |
 | Project Roles Guide | No |  |
 | Project Roles Review | No | |
 | Account Level Library Tagging | No |  |

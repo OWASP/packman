@@ -6,13 +6,13 @@ A documentation and tracking project with the goal of making package management 
 
 | Language | Name | Tier | Controls | Packman Lead | Packman Page | 
 |----------|------|------|----------|--------------|--------------|
-| Javascript | npm | 1   |  |  | [npm Page](./npm.md) |
+| Javascript | npm | 1   |  |  | [npm](./npm.md) |
 | Ruby       | RubyGems | 1 | | | [rubygems](./rubygems.md)|
 | Python     | PyPy     | 1 | |  | |
-| Java       | Maven Central | 2 | | |
+| Java       | Maven Central | 2 | | [maven central](./mavencentral.md)|
 | .Net       | NuGet      | ? | | |
 | Dockerhub  | Docker     | 1 | | |
-| Golang     |            | 1 | | [golang](./golang.md)|
+| Golang     |            | 1 | | | [golang](./golang.md)|
 
 ## Tiers and Controls
 

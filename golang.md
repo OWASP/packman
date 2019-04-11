@@ -9,7 +9,7 @@ Go package manager information.
 ## Compliance Table
 
 | Control | Status | Comments |
-|---------|--------|--------|--------|
+|---------|--------|--------|
 | Strong Authentication | Optional |  |
 | MFA To Push Artifacts | Optional |  |
 | Security Contacts | No |  |
