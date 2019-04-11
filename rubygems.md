@@ -2,6 +2,10 @@
 
 Rubygems information.
 
+## Tier
+
+The Rubygems package manager is tier 1.
+
 ## Contacts
 
 

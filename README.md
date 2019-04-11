@@ -9,7 +9,7 @@ A documentation and tracking project with the goal of making package management 
 | Javascript | npm | 1   |  |  | [npm](./npm.md) |
 | Ruby       | RubyGems | 1 | | | [rubygems](./rubygems.md)|
 | Python     | PyPy     | 1 | |  | |
-| Java       | Maven Central | 2 | | [maven central](./mavencentral.md)|
+| Java       | Maven Central | 2 | | | [maven central](./mavencentral.md)|
 | .Net       | NuGet      | ? | | |
 | Dockerhub  | Docker     | 1 | | |
 | Golang     |            | 1 | | | [golang](./golang.md)|

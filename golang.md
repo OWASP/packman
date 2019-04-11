@@ -2,6 +2,10 @@
 
 Go package manager information.
 
+## Tier
+
+The Go package manager is tier 1.
+
 ## Contacts
 
 

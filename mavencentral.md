@@ -2,6 +2,10 @@
 
 Maven central package manager information.
 
+## Tier
+
+Maven Central is tier .
+
 ## Contacts
 
 

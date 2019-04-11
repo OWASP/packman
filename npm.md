@@ -2,6 +2,10 @@
 
 NPM information.
 
+## Tier
+
+The npm package manager is tier 1.
+
 ## Contacts
 
 
