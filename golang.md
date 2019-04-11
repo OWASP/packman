@@ -1,6 +1,6 @@
-# Node Package Manager
+# Go Package Manager
 
-NPM information.
+Go package manager information.
 
 ## Contacts
 
@@ -12,15 +12,15 @@ NPM information.
 |---------|--------|--------|--------|
 | Strong Authentication | Optional |  |
 | MFA To Push Artifacts | Optional |  |
-| Security Contacts | Yes |  |
+| Security Contacts | No |  |
 | Packages Can Notify of Security Issues | ??? |  |
 | Code package tied to source code | No | |
 | Update notifications | No |  |
 | Code signing | ??? |  |
 | Code analysis (static) | No |  |
-| Code Dependency Analysis | Yes | npm audit |
-| Package Manager Does Not Run Code | No, it does |  |
-| Package Manager Does Not Collect Info | No, it does. |  |
+| Code Dependency Analysis | No |  |
+| Package Manager Does Not Run Code | Yes |  |
+| Package Manager Does Not Collect Info | Yes |  |
 | Project Roles Guide | No |  |
 | Project Roles Review | No | |
 | Account Level Library Tagging | No |  |

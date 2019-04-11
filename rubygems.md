@@ -1,6 +1,6 @@
-# Node Package Manager
+# Rubygems Package Manager
 
-NPM information.
+Rubygems information.
 
 ## Contacts
 
@@ -16,11 +16,11 @@ NPM information.
 | Packages Can Notify of Security Issues | ??? |  |
 | Code package tied to source code | No | |
 | Update notifications | No |  |
-| Code signing | ??? |  |
+| Code signing | Optional |  |
 | Code analysis (static) | No |  |
-| Code Dependency Analysis | Yes | npm audit |
+| Code Dependency Analysis | No | bundler audit |
 | Package Manager Does Not Run Code | No, it does |  |
-| Package Manager Does Not Collect Info | No, it does. |  |
+| Package Manager Does Not Collect Info | ??? |  |
 | Project Roles Guide | No |  |
 | Project Roles Review | No | |
 | Account Level Library Tagging | No |  |
