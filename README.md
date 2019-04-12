@@ -13,6 +13,7 @@ A documentation and tracking project with the goal of making package management 
 | .Net       | NuGet      | ? | | |
 | Dockerhub  | Docker     | 1 | | |
 | Golang     |            | 1 | | | [golang](./golang.md)|
+| Rust       | Cargo      | ? | | | |
 
 ## Tiers and Controls
 
