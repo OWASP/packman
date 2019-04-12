@@ -10,7 +10,7 @@ A documentation and tracking project with the goal of making package management 
 | Ruby       | RubyGems | 1 | | | [rubygems](./rubygems.md)|
 | Python     | PyPy     | 1 | |  | |
 | Java       | Maven Central | 2 | | | [maven central](./mavencentral.md)|
-| .Net       | NuGet      | 2 | | [nuget](./nuget.md)|
+| .Net       | NuGet      | 2 | | |[nuget](./nuget.md)|
 | Dockerhub  | Docker     | 1 | | |
 | Golang     |            | 1 | | | [golang](./golang.md)|
 | Rust       | Cargo      | 2? | | | [rustcargo](./rustcargo.md)|
