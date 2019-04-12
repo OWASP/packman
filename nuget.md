@@ -26,7 +26,7 @@ https://docs.microsoft.com/en-us/nuget/policies/governance
 | Code signing | Yes |  |
 | Code analysis (static) | No |  |
 | Code Dependency Analysis | No |  |
-| Package Manager Does Not Run Code | Yes |  |
+| Package Manager Does Not Run Code | Optional | Packages can have scripts |
 | Package Manager Does Not Collect Info | Yes |  |
 | Project Roles Guide | No |  |
 | Project Roles Review | No |  |
