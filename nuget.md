@@ -1,6 +1,6 @@
 # NuGet Package Manager
 
-Maven central package manager information.
+NuGet package manager information.
 
 ## Tier
 
