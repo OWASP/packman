@@ -11,12 +11,13 @@ A documentation and tracking project with the goal of making package management 
 | Python     | PyPi     | 1 | |  | |
 | Java       | Maven Central | 2 | | | [maven central](./mavencentral.md)|
 | Java       | Android Central | ? | | | |
-| .Net       | NuGet      | ? | | |
+| .Net       | NuGet      | 2 | | |[nuget](./nuget.md)|
 | Dockerhub  | Docker     | 1 | | |
-| Golang     |            | 1 | | | [golang](./golang.md)|
-| PHP        | Composer   | ? | | | 
+| Golang     | go get     | 1 | | | [golang](./golang.md)|
+| PHP        | Composer   | ? | | |
 | Cocoa      | Cocoa Pods | ? | | |
 | Swift      | Swift Package Manager | ? | | |
+| Rust       | Cargo      | 2? | | | [rustcargo](./rustcargo.md)|
 
 ## Tiers and Controls
 
@@ -31,7 +32,7 @@ A documentation and tracking project with the goal of making package management 
 | Security Contacts | &#9744; | &#9745; | &#9745; |
 | Packages Can Notify of Security Issues | &#9744; | &#9745; | &#9745; |
 | Code package tied to source code | &#9744; | &#9745; | &#9745;|
-| Prevents Credential from Being Published | &#9744; | &#9745; | &#9745 |
+| Prevents Credential from Being Published | &#9744; | &#9745; | &#9745; |
 | Update notifications | &#9744; | &#9745; | &#9745;|
 | Code signing | &#9744; | &#9744; | &#9745; |
 | Integrity Verification | &#9744; | &#9744; | &#9745; |
