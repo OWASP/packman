@@ -8,11 +8,15 @@ A documentation and tracking project with the goal of making package management 
 |----------|------|------|----------|--------------|--------------|
 | Javascript | npm | 1   |  |  | [npm](./npm.md) |
 | Ruby       | RubyGems | 1 | | | [rubygems](./rubygems.md)|
-| Python     | PyPy     | 1 | |  | |
+| Python     | PyPi     | 1 | |  | |
 | Java       | Maven Central | 2 | | | [maven central](./mavencentral.md)|
+| Java       | Android Central | ? | | | |
 | .Net       | NuGet      | ? | | |
 | Dockerhub  | Docker     | 1 | | |
 | Golang     |            | 1 | | | [golang](./golang.md)|
+| PHP        | Composer   | ? | | | 
+| Cocoa      | Cocoa Pods | ? | | |
+| Swift      | Swift Package Manager | ? | | |
 
 ## Tiers and Controls
 
@@ -27,8 +31,10 @@ A documentation and tracking project with the goal of making package management 
 | Security Contacts | &#9744; | &#9745; | &#9745; |
 | Packages Can Notify of Security Issues | &#9744; | &#9745; | &#9745; |
 | Code package tied to source code | &#9744; | &#9745; | &#9745;|
+| Prevents Credential from Being Published | &#9744; | &#9745; | &#9745 |
 | Update notifications | &#9744; | &#9745; | &#9745;|
 | Code signing | &#9744; | &#9744; | &#9745; |
+| Integrity Verification | &#9744; | &#9744; | &#9745; |
 | Code analysis (static) | &#9744; | &#9744; | &#9745; |
 | Code Dependency Analysis | &#9744; | &#9744; | &#9745; |
 | Package Manager Does Not Run Code | &#9744; | &#9744; | &#9745; |
@@ -79,6 +85,15 @@ When security issues are identified in a package, there should be a way for a co
 
 It should be possible for developers to sign their code.  When they do, the package manager should verify the signatures and provide a way for those to be distributed to consumers of the package.
 
+### Integrity verification
+
+Package manager provides a method for verifying the integrity of the downloaded package.
+
+None - no integrity verification is done
+Partial - integrity verification is done using a weak method*
+Yes - Verification is done using a sufficiently secure method
+* we need want to define this.
+
 ### Code Analysis Static
 
 The platform can provide static code analysis to proactively identify potential issues in important libraries.
@@ -107,8 +122,16 @@ The package management system maintainers should have a process for reviewing th
 
 Consumers of libraries should be able to tag their interest or approval in a specific library so that they can ensure that builds only use libraries they have tagged in certain ways.  Eg. marked as code reviewed.
 
+### Prevents credential from being published
+
+The package manager provides some control to prevent the authentication credentials / token / session from being leaked as part of the package contents.
+
+None - no control is present and the user is to protect themselves
+Partial - insert comment
+Yes - credentials / tokens are either blocked from publication or are revoked through an automated way triggered by publication of a package. Users should be notified in some way that action has taken place.
+
 ## References to Related Projects
 
 - [Dependency Track](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project)
 - [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check)
-
+- [PURL Spec](https://github.com/package-url/purl-spec)
