@@ -16,7 +16,7 @@ A documentation and tracking project with the goal of making package management 
 | Golang     | go get     | 1 | | | [golang](./golang.md)|
 | PHP        | Composer   | ? | | |
 | Cocoa      | Cocoa Pods | ? | | |
-| Swift      | Swift Package Manager | ? | | |
+| Swift      | Swift Package Manager | 1 | | | [swiftpm](./swiftpm.md)|
 | Rust       | Cargo      | 2? | | | [rustcargo](./rustcargo.md)|
 
 ## Tiers and Controls
