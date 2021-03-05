@@ -14,13 +14,13 @@ The Go package manager is tier 1.
 
 | Control | Status | Comments |
 |---------|--------|--------|
-| Strong Authentication | Optional |  |
+| Strong Authentication | Optional |  Github |
 | MFA To Push Artifacts | Optional |  |
 | Security Contacts | No |  |
 | Packages Can Notify of Security Issues | ??? |  |
-| Code package tied to source code | No | |
+| Code package tied to source code | Yes | |
 | Update notifications | No |  |
-| Code signing | ??? |  |
+| Code signing | Optional |  |
 | Code analysis (static) | No |  |
 | Code Dependency Analysis | No |  |
 | Package Manager Does Not Run Code | Yes |  |

@@ -8,7 +8,7 @@ A documentation and tracking project with the goal of making package management 
 |----------|------|------|----------|--------------|--------------|
 | JavaScript | npm | 1   |  |  | [npm](./npm.md) |
 | Ruby       | RubyGems | 1 | | | [rubygems](./rubygems.md)|
-| Python     | PyPi     | 1 | |  | |
+| Python     | PyPi     | 1 | |  | [pip/pypi](./pypi.md)|
 | Java       | Maven Central | 2 | | | [maven central](./mavencentral.md)|
 | Java       | Android Central | ? | | | |
 | .Net       | NuGet      | 2 | | |[nuget](./nuget.md)|
